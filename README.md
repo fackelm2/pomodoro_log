@@ -6,10 +6,11 @@ So I used the python loggging mechanismen to write the pomodoro timer in a log f
 
 You can change the number of rounds, the focus time (minutes) and the break time (minutes) by changing the following constants in the python script in the main() part:
 
-'''
+```sh
 pomorounds = 4          # set number of pomodoro rounds ..
 pomofocustime = 30      # set minutes to focus
 pomobreaktime = 5       # set minutes for break time
-'''
+```
+
 
 
