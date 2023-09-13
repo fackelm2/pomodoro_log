@@ -30,4 +30,4 @@ start python script
 # python pomodoro-logger.py
 ```
 
-the script will automatically start to write the file "pomodoro.log" in the same directory of the script.
+the script will automatically start to write the timer data line for line in the file "pomodoro.log" in the same directory of the script.
