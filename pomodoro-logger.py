@@ -2,7 +2,7 @@
 """
 Description: Pomodoro Timer for a logfile
 Version: 0.1
-pomodoro_logger.py: A Python script (command-line interface) as a pomodoro timer ..
+pomodoro-logger.py: A Python script (command-line interface) as a pomodoro timer ..
 Development under Python 3.11.1 (venv)
 """
 __author__: str = "Dietmar Fackelmann"
@@ -12,7 +12,7 @@ __license__: str = "GPLv3"
 import logging
 import time
 
-pomodoro_log_version = 'pomodoro_logger.py Version 0.1.20230913-3'
+pomodoro_log_version = 'pomodoro-logger.py Version 0.1.20230913-3'
 
 
 def pomodoro(rounds, focustime, breaktime):
@@ -60,7 +60,7 @@ if __name__ == '__main__':
     #                   datefmt='%Y-%m-%d %H:%M')
     logging.basicConfig(filename='pomodoro.log', encoding='utf-8', level=logging.DEBUG, format=loggingformat,
                         datefmt='%d.%m.%Y %H:%M')
-    print('pomodoro_logger.py writes timer in file \"pomodoro.log\" for integration in OBS ..')
+    print('pomodoro-logger.py writes timer in file \"pomodoro.log\" for integration in OBS ..')
     pomorounds = 4          # set number of pomodoro rounds ..
     pomofocustime = 30      # set minutes to focus
     pomobreaktime = 5       # set minutes for break time
