@@ -12,7 +12,7 @@ __license__: str = "GPLv3"
 import logging
 import time
 
-pomodoro_log_version = 'pomodoro_logger.py Version 0.1.20230913'
+pomodoro_log_version = 'pomodoro_logger.py Version 0.1.20230913-2'
 
 
 def pomodoro(rounds, focustime, breaktime):
