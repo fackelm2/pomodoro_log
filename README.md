@@ -42,5 +42,5 @@ in the file "pomodoro.log" in the same directory of the script:
 [13.09.2023 23:10] focus time 29:57
 [13.09.2023 23:10] focus time 29:56
 [13.09.2023 23:10] focus time 29:55
-
+...
 ```
