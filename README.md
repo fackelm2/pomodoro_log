@@ -1,7 +1,7 @@
 # pomodoro_logger (BETA)
 
 ## command line tool to write pomodoro timer in text file (log file)
-A simple command-line tool because i needed a fast solution for a pomodoro timer. <br>
+A simple command-line tool because i needed a fast solution for a pomodoro timer while streaming with OBS. <br>
 So I used the python loggging mechanismen to write the pomodoro timer in a log file.<br>
 
 Attention: The logfile will grow (one entry every second) while executing this script.<br>
