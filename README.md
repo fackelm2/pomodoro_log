@@ -14,8 +14,8 @@ pomofocustime = 30      # set minutes to focus
 pomobreaktime = 5       # set minutes for break time
 ```
 
-The script generates the log file "pomodoro.log" and write every second of the timer in this log. 
-You can also evaluate the log later or use it as a working time log.
+The script generates the log file "pomodoro.log". 
+You can use the log file as a working time log or evaluate your focus times.
 
 ## OBS configuration
 Start OBS an choose your "Szene" to add the pomodoro counter<br>
