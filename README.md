@@ -18,7 +18,7 @@ The script generates the log file "pomodoro.log". <br>
 You can use the log file as a working time log or evaluate your focus times.
 
 ## OBS configuration
-First execute the script a few seconds to generate the log file the first time.
+First execute the script a few seconds to generate the log file the first time.<br>
 Start OBS an choose your "Szene" to add the pomodoro counter<br>
 a) add "Text(GDI+)" to a "OBS Szene"<br>
 b) activate "Aus Datei lesen"<br>
