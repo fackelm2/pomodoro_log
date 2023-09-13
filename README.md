@@ -16,6 +16,7 @@ The script generates the log file "pomodoro.log" and write every second of the t
 You can also evaluate the log later or use it as a working time log.
 
 ## OBS configuration
+Start OBS an choose your "Szene" to add the pomodoro counter<br>
 a) add "Text(GDI+)" to a "OBS Szene"<br>
 b) activate "Aus Datei lesen"<br>
 c) choose "pomodoro.log" file from you location of the python script<br>
