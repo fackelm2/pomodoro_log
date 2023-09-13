@@ -21,4 +21,6 @@ b) activate "Aus Datei lesen"<br>
 c) choose "pomodoro.log" file from you location of the python script<br>
 
 ## Start pomodoro_logging.py 
-start pomodoro_logging.py to start writing the pomodoro.log file ..
+start pomodoro_logging.py <br>
+to start writing the timer in the pomodoro.log file
+in the same directory of the script.
