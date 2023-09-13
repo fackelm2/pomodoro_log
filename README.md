@@ -20,7 +20,11 @@ a) add "Text(GDI+)" to a "OBS Szene"<br>
 b) activate "Aus Datei lesen"<br>
 c) choose "pomodoro.log" file from you location of the python script<br>
 
-## Start pomodoro_logging.py 
-start pomodoro_logging.py <br>
-to start writing the timer in the pomodoro.log file
-in the same directory of the script.
+## Start pomodoro timer
+start python script
+```
+# python pomodoro-logger.py
+```
+
+the script will automatically start to write the 
+pomodoro.log file in the same directory of the script.
