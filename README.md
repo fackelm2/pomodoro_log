@@ -14,7 +14,7 @@ pomofocustime = 30      # set minutes to focus
 pomobreaktime = 5       # set minutes for break time
 ```
 
-The script generates the log file "pomodoro.log". 
+The script generates the log file "pomodoro.log". <br>
 You can use the log file as a working time log or evaluate your focus times.
 
 ## OBS configuration
