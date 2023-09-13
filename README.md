@@ -36,8 +36,6 @@ in the file "pomodoro.log" in the same directory of the script:
 # more pomodoro.log
 [13.09.2023 23:10] start 4 pomodoro rounds (30m 5m)
 [13.09.2023 23:10] round number 1 of 4
-[13.09.2023 23:10] start 4 pomodoro rounds (30m 5m)
-[13.09.2023 23:10] round number 1 of 4
 [13.09.2023 23:10] focus time 30:00
 [13.09.2023 23:10] focus time 29:59
 [13.09.2023 23:10] focus time 29:58
