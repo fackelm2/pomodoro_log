@@ -62,7 +62,7 @@ if __name__ == '__main__':
     #                   datefmt='%Y-%m-%d %H:%M')
     logging.basicConfig(filename='pomodoro.log', encoding='utf-8', level=logging.DEBUG, format=loggingformat,
                         datefmt='%d.%m.%Y %H:%M')
-    print('pomodoro_logger.py writes timer in file \"pomodoro.log\" to integrate in OBS ..')
+    print('pomodoro_logger.py writes timer in file \"pomodoro.log\" for integration in OBS ..')
     pomorounds = 4          # set number of pomodoro rounds ..
     pomofocustime = 30      # set minutes to focus
     pomobreaktime = 5       # set minutes for break time
