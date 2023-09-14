@@ -1,4 +1,4 @@
-# pomodoro_logger (BETA)
+# pomodoro-logger (BETA)
 
 ## command line tool to write pomodoro timer in text file (log file)
 A simple command-line tool because i needed a fast solution for a pomodoro timer while streaming with OBS. <br>
