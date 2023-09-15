@@ -39,7 +39,6 @@ pomodoro_log_version = 'pomodoro-logger.py Version 0.1.20230913-3'
 # IDEE: das ganze in Form eines Android Smartphones - und auch als App
 
 
-
 def pomodoro(rounds, focustime, breaktime):
     inround = 0         # start with first round ..
     roundcounter = rounds
@@ -52,8 +51,8 @@ def pomodoro(rounds, focustime, breaktime):
             focustimer = (focustime * 60)  # set focustimer (number of minutes * 60 seconds)
             breaktimer = (breaktime * 60)  # set breaktime (number of minutes * 60 seconds)
 
-            #logging.info('round ' + str(inround) + ' of ' + str(roundcounter))
-            #time.sleep(2)
+            # logging.info('round ' + str(inround) + ' of ' + str(roundcounter))
+            # time.sleep(2)
             rounds = rounds - 1
             # logging.info('prepare for focus time ..')
             # time.sleep(2)  # wait to x seconds to begin break time ..
