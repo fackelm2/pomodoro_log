@@ -15,6 +15,31 @@ import time
 pomodoro_log_version = 'pomodoro-logger.py Version 0.1.20230913-3'
 
 
+# TODO Anzeige:
+#  POMODORO 2/4
+# "ACTION" oder "RELAX"
+# aktuell
+# [14.09.2023 10:13] focus time 29:20
+# vorschlag
+# [14.09.2023 10:13] pomo 2/4 *action*  relax  29:20
+# [14.09.2023 10:13] pomo 3/4  action  *relax*  2:34
+# möglich auch schreiben von 4 logs, die dann an unterschiedlichen Stellen positioniert werden können
+# mit unterschiedlicher Größe ..
+# [14.09.2023 10:13] pomo 2/4
+# *produce*  relax
+# 29:20
+#
+# entspannen / ausruhen / ruhe / erholung   / auszeit
+# relax      / rest     / rest / recreation / time out
+# produzieren / Aktion / Tätigkeit / Aufgabe / Auftrag / herstellen / beschäftigen / aktiv werden  / tun
+# produce     / action / activity  /  task   / order   / produce    / employ       / become active / do
+#
+# Stream Words : study, studywithme, coworking, pomodoro,
+# More to do : Tasks / Tasker erstellen
+# IDEE: das ganze in Form eines Android Smartphones - und auch als App
+
+
+
 def pomodoro(rounds, focustime, breaktime):
     counter = 0         # start with first round ..
     roundcounter = rounds
