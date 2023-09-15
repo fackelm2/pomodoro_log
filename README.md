@@ -46,3 +46,24 @@ in the file "pomodoro.log" in the same directory of the script:
 [13.09.2023 23:10] focus time 29:55
 ...
 ```
+
+## OBS Fine Tuning
+Schriftart: "Courier New Standard" (Size 70)
+Aus Datei lesen (aktiv)
+Antialiasing aktivieren (aktiv)
+Farbe: "#ffffff"
+Deckkraft "90%"
+Hintergrundfarbe "#000000"
+Hintergrunddeckkraft "70%"
+Ausrichtung "Zentriert"
+Vertikale Ausrichtung "Zentriert"
+Kontur (aktiv)
+Konturgröße "2"
+Konturfarbe "#a5a5a5"
+Konturdeckkraft "100%"
+Chatlogmodus (aktiv)
+Chatlogzeilenlimit "1"
+Benutzerdefinierten Textbereich benutzen (aktiv)
+Breite "3000"
+Höhe "90"
+Zeilenumbruch (DEAKTIV)
