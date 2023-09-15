@@ -52,8 +52,8 @@ def pomodoro(rounds, focustime, breaktime):
             focustimer = (focustime * 60)  # set focustimer (number of minutes * 60 seconds)
             breaktimer = (breaktime * 60)  # set breaktime (number of minutes * 60 seconds)
 
-            logging.info('round ' + str(inround) + ' of ' + str(roundcounter))
-            time.sleep(2)
+            #logging.info('round ' + str(inround) + ' of ' + str(roundcounter))
+            #time.sleep(2)
             rounds = rounds - 1
             # logging.info('prepare for focus time ..')
             # time.sleep(2)  # wait to x seconds to begin break time ..
@@ -62,10 +62,10 @@ def pomodoro(rounds, focustime, breaktime):
                 minutes = focustimer // 60
                 seconds = focustimer % 60
                 timer = '{:02.0f}:{:02.0f}'.format(minutes, seconds)
-                logging.info(str(inround) + '/' + str(roundcounter) + ' -> action <-   relax   ' + str(timer))
+                logging.info(str(inround) + '/' + str(roundcounter) + ' -> action <-   relax    ' + str(timer))
                 time.sleep(1)
                 focustimer = focustimer - 1
-                logging.info(str(inround) + '/' + str(roundcounter) + '    action      relax   ' + str(timer))
+                logging.info(str(inround) + '/' + str(roundcounter) + '    action      relax    ' + str(timer))
                 time.sleep(1)
                 focustimer = focustimer - 1
             # logging.info('prepare for break time ..')
@@ -74,10 +74,10 @@ def pomodoro(rounds, focustime, breaktime):
                 minutes = breaktimer // 60
                 seconds = breaktimer % 60
                 timer = '{:02.0f}:{:02.0f}'.format(minutes, seconds)
-                logging.info(str(inround) + '/' + str(roundcounter) + '    action  -> relax <- ' + str(timer))
+                logging.info(str(inround) + '/' + str(roundcounter) + '    action  -> relax <-  ' + str(timer))
                 time.sleep(1)
                 breaktimer = breaktimer - 1
-                logging.info(str(inround) + '/' + str(roundcounter) + '    action     relax    ' + str(timer))
+                logging.info(str(inround) + '/' + str(roundcounter) + '    action     relax     ' + str(timer))
                 time.sleep(1)
                 breaktimer = breaktimer - 1
 
@@ -95,6 +95,6 @@ if __name__ == '__main__':
                         datefmt='%d.%m.%Y %H:%M')
     print('pomodoro-logger.py writes timer in file \"pomodoro.log\" for integration in OBS ..')
     pomorounds = 4          # set number of pomodoro rounds ..
-    pomofocustime = 0.1      # set minutes to focus
-    pomobreaktime = 0.1       # set minutes for break time
+    pomofocustime = 20      # set minutes to focus
+    pomobreaktime = 5       # set minutes for break time
     pomodoro(pomorounds, pomofocustime, pomobreaktime)
