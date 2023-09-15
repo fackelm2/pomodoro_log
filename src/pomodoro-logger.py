@@ -63,7 +63,12 @@ def pomodoro(rounds, focustime, breaktime):
                 timer = '{:02.0f}:{:02.0f}'.format(minutes, seconds)
                 logging.info(str(inround) + '/' + str(roundcounter) + ' -> action <-   relax    ' + str(timer))
                 time.sleep(1)
+
                 focustimer = focustimer - 1
+
+                minutes = focustimer // 60
+                seconds = focustimer % 60
+                timer = '{:02.0f}:{:02.0f}'.format(minutes, seconds)
                 logging.info(str(inround) + '/' + str(roundcounter) + '    action      relax    ' + str(timer))
                 time.sleep(1)
                 focustimer = focustimer - 1
@@ -75,7 +80,12 @@ def pomodoro(rounds, focustime, breaktime):
                 timer = '{:02.0f}:{:02.0f}'.format(minutes, seconds)
                 logging.info(str(inround) + '/' + str(roundcounter) + '    action  -> relax <-  ' + str(timer))
                 time.sleep(1)
+
                 breaktimer = breaktimer - 1
+
+                minutes = breaktimer // 60
+                seconds = breaktimer % 60
+                timer = '{:02.0f}:{:02.0f}'.format(minutes, seconds)
                 logging.info(str(inround) + '/' + str(roundcounter) + '    action     relax     ' + str(timer))
                 time.sleep(1)
                 breaktimer = breaktimer - 1
