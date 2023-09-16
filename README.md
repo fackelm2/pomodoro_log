@@ -1,7 +1,10 @@
 # pomodoro-logger
 
-## Write a "pomodoro timer" in a text file (log file) for OBS
-A simple command line tool to write "pomodoro timer" in a text file (log file) for OBS. <br>
+## Write a "pomodoro timer" into a text file
+A simple command line tool to write "pomodoro timer" in a text file (log file). <br>
+Good for using in OBS Studio (Open Broadcaster Software). <br>
+
+Example Picture:<br>
 
 ![pomodoro-logger.py output picture](example-001.jpg)
 
