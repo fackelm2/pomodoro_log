@@ -35,7 +35,7 @@ c) stop python script with "\<ctrl\> c" <br>
 
 You can use this log file for OBS, as a working time log or for evaluating your "action times".
 
-## change Pomodoro Settings
+## Change Pomodoro Settings
 You can change the number of rounds, the "action time" (minutes) and the "relax time" (minutes) 
 by changing the following constants in the python script in the main() part:
 ```sh
