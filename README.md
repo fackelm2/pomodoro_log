@@ -1,8 +1,9 @@
-# pomodoro-logger (BETA)
+# pomodoro-logger
 
-## command line tool to write pomodoro timer in text file (log file)
-A simple command-line tool because i needed a fast solution for a pomodoro timer while streaming with OBS. <br>
-See the example_pictures-001.jpg for example. The Timer ist on the left upper corner. <br>
+## Write a "pomodoro timer" in a text file (log file) for OBS
+A simple command line tool to write "pomodoro timer" in a text file (log file) for OBS <br>
+I needed a fast solution for a pomodoro timer while streaming with OBS. <br>
+See the example-001.jpg for example. <br>
 
 I used the python loggging mechanismen to write the pomodoro timer in a log file.<br>
 
@@ -36,18 +37,16 @@ the script will automatically start to write the timer data line for line<br>
 in the file "pomodoro.log" in the same directory of the script:
 ```
 # more pomodoro.log
-[13.09.2023 23:10] start 4 pomodoro rounds (30m 5m)
-[13.09.2023 23:10] round number 1 of 4
-[13.09.2023 23:10] focus time 30:00
-[13.09.2023 23:10] focus time 29:59
-[13.09.2023 23:10] focus time 29:58
-[13.09.2023 23:10] focus time 29:57
-[13.09.2023 23:10] focus time 29:56
-[13.09.2023 23:10] focus time 29:55
+[16.09.2023 21:05] start 4 pomodoro rounds (20m 5m)
+...
+[16.09.2023 22:31] 4/4    action      relax    08:53
+[16.09.2023 22:31] 4/4 -> action <-   relax    08:52
+[16.09.2023 22:31] 4/4    action      relax    08:51
+[16.09.2023 22:31] 4/4 -> action <-   relax    08:50
 ...
 ```
 
-## OBS Fine Tuning
+## OBS Fine Tuning (OBS Configuration Options)
 Schriftart: "Courier New Standard" (Size 70)
 Aus Datei lesen (aktiv)
 Antialiasing aktivieren (aktiv)
