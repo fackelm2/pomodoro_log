@@ -2,7 +2,6 @@
 
 ## Write a "pomodoro timer" in a text file (log file) for OBS
 A simple command line tool to write "pomodoro timer" in a text file (log file) for OBS <br>
-I needed a fast solution for a pomodoro timer while streaming with OBS. <br>
 See the example-001.jpg for example. <br>
 
 I used the python loggging mechanismen to write the pomodoro timer in a log file.<br>
