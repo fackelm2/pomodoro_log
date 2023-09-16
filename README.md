@@ -2,6 +2,17 @@
 
 ## Write a "pomodoro timer" into a text file
 A simple command line tool to write "pomodoro timer" in a text file (log file). <br>
+```
+# more pomodoro.log
+[16.09.2023 21:05] start 4 pomodoro rounds (20m 5m)
+...
+[16.09.2023 22:31] 4/4    action      relax    08:53
+[16.09.2023 22:31] 4/4 -> action <-   relax    08:52
+[16.09.2023 22:31] 4/4    action      relax    08:51
+[16.09.2023 22:31] 4/4 -> action <-   relax    08:50
+...
+```
+
 You can use it as a Pomodoro Timer while Streaming with OBS Studio (Open Broadcaster Software). <br>
 
 Example output while streaming with OBS Studio:<br>
@@ -20,16 +31,6 @@ b) start python script:<br>
 
 the script will automatically start to write the timer data line for line<br> 
 in the file "pomodoro.log" in the same directory of the script:
-```
-# more pomodoro.log
-[16.09.2023 21:05] start 4 pomodoro rounds (20m 5m)
-...
-[16.09.2023 22:31] 4/4    action      relax    08:53
-[16.09.2023 22:31] 4/4 -> action <-   relax    08:52
-[16.09.2023 22:31] 4/4    action      relax    08:51
-[16.09.2023 22:31] 4/4 -> action <-   relax    08:50
-...
-```
 
 c) stop python script with "\<ctrl\> c" <br>
 
