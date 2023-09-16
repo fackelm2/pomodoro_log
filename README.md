@@ -50,6 +50,7 @@ c) choose "pomodoro.log" file from you location of the python script <br>
 
 
 ## OBS Fine Tuning (OBS Configuration Options)
+```
 Schriftart: "Courier New Standard" (Size 70)
 Aus Datei lesen (aktiv)
 Antialiasing aktivieren (aktiv)
@@ -69,3 +70,4 @@ Benutzerdefinierten Textbereich benutzen (aktiv)
 Breite "3000"
 Höhe "90"
 Zeilenumbruch (DEAKTIV)
+```
