@@ -28,7 +28,7 @@ in the file "pomodoro.log" in the same directory of the script:
 ...
 ```
 
-c) stop python script with "<ctrl> c"<br>
+c) stop python script with "\<ctrl\> c" <br>
 
 You can use this log file for OBS, as a working time log or for evaluating your "action times".
 
