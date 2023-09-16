@@ -29,12 +29,6 @@ pomodoro_log_version = 'pomodoro-logger.py Version 0.1.20230915'
 # *produce*  relax
 # 29:20
 #
-# entspannen / ausruhen / ruhe / erholung   / auszeit
-# relax      / rest     / rest / recreation / time out
-# produzieren / Aktion / Tätigkeit / Aufgabe / Auftrag / herstellen / beschäftigen / aktiv werden  / tun
-# produce     / action / activity  /  task   / order   / produce    / employ       / become active / do
-#
-# Stream Words : study, studywithme, coworking, pomodoro,
 # More to do : Tasks / Tasker erstellen
 # IDEE: das ganze in Form eines Android Smartphones - und auch als App
 
