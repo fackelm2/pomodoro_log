@@ -13,8 +13,8 @@ A simple command line tool to write "pomodoro timer" in a text file (log file). 
 ...
 ```
 
-## Used with OBS Studio
-You can use it as a Pomodoro Timer while Streaming with OBS Studio (Open Broadcaster Software) <br>
+## Use pomodoro logfile with OBS Studio
+The pomodoro logfile can be used with OBS Studio (Open Broadcaster Software) as a pomodoro timer <br>
 
 ![pomodoro-logger.py output picture](example-001.jpg)
 
