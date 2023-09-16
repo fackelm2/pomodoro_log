@@ -37,7 +37,7 @@ You can change the number of rounds, the "action time" (minutes) and the "relax 
 by changing the following constants in the python script in the main() part:
 ```sh
 pomorounds = 4          # set number of pomodoro rounds ..
-pomoactiontime = 30      # set minutes to focus
+pomoactiontime = 30     # set minutes to focus
 pomorelaxtime = 5       # set minutes for break time
 ```
 
