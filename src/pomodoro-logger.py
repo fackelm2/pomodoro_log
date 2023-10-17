@@ -12,7 +12,7 @@ __license__: str = "GPLv3"
 import logging
 import time
 
-pomodoro_log_version = 'pomodoro-logger.py Version 0.1.20230915'
+pomodoro_log_version = 'pomodoro-logger.py Version 0.1.20231017'
 
 
 def pomodoro(rounds, actiontime, relaxtime):
@@ -80,6 +80,11 @@ if __name__ == '__main__':
                         datefmt='%d.%m.%Y %H:%M')
     print('pomodoro-logger.py writes timer in file \"pomodoro.log\" for integration in OBS ..')
     pomorounds = 4          # set number of pomodoro rounds ..
-    pomoactiontime = 20      # set minutes to focus
-    pomorelaxtime = 5       # set minutes for break time
+    pomoactiontime = 50      # set minutes to focus
+    pomorelaxtime = 10       # set minutes for break time
     pomodoro(pomorounds, pomoactiontime, pomorelaxtime)
+
+# todo
+# watch actual time and make pomodoro break at 12:00 - 13:00 for lunch and breake
+# choose best pomodoro timer for
+# first possible start time (for example 9:00) and last end  time at (for example at 20:00)
