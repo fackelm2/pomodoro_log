@@ -1,7 +1,7 @@
 # pomodoro-logger
 
 ## Write a "pomodoro timer" into a text file
-A simple command line tool to write "pomodoro timer" in a text file (log file). <br>
+A simple command line tool to write "pomodoro timer" to a text file (log file). <br>
 ```
 # more pomodoro.log
 [16.09.2023 21:05] start 4 pomodoro rounds (20m 5m)
