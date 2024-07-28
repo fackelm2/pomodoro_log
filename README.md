@@ -30,8 +30,8 @@ b) run the python script:<br>
 # python pomodoro-logger.py
 ```
 
-the script will automatically start writing the timer data line by line<br> 
-to the file "pomodoro.log" in the same directory as the script:
+the script will automatically start to write the data of the timer, row by row,<br> 
+to the file "pomodoro.log" file in the same directory as the script:
 
 c) stop python script with "\<ctrl\> c" <br>
 
