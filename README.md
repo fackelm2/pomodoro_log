@@ -31,7 +31,7 @@ b) run the python script:<br>
 ```
 
 the script will automatically start writing the timer data line by line<br> 
-in the file "pomodoro.log" in the same directory as the script:
+to the file "pomodoro.log" in the same directory as the script:
 
 c) stop python script with "\<ctrl\> c" <br>
 
