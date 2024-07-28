@@ -1,7 +1,9 @@
 # pomodoro-logger
 
 ## Write a "pomodoro timer" into a text file
-A simple command line tool to write "pomodoro timer" to a text file (log file). <br>
+CLI tool to write Pomodoro timer to a log file for OBS integration (Text GDI+)<br>
+
+
 ```
 # more pomodoro.log
 [16.09.2023 21:05] start 4 pomodoro rounds (20m 5m)
