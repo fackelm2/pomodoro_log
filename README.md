@@ -15,7 +15,7 @@ CLI tool to write Pomodoro timer to a log file for OBS integration (Text GDI+)<b
 ...
 ```
 
-## Use pomodoro logfile with OBS Studio
+## Use pomodoro log file with OBS Studio
 The Pomodoro log file can be used with OBS Studio (Open Broadcaster Software) as a Pomodoro timer <br>
 
 ![pomodoro-logger.py output picture](example-001.jpg)
