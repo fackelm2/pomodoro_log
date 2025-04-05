@@ -5,6 +5,7 @@ Version: 0.1
 pomodoro-logger.py: A Python script (command-line interface) as a pomodoro timer ..
 Development under Python 3.11.1 (venv)
 """
+__version__: str = "0.1.20250405"
 __author__: str = "Dietmar Fackelmann"
 __email__: str = "github@nmit.de"
 __license__: str = "GPLv3"
